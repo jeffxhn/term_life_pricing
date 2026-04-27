@@ -108,7 +108,7 @@ Profit_t = P_gross - Expense_t - Claims_t - (V_(t+1) - V_t)
 
 where:
 - Expense_0 = E1, Expense_t = Er for t >= 1
-- Claims_t = d_(x+t) * F (expected death benefits, NOT a processing fee)
+- Claims_t = d_(x+t) * F (expected death benefits)
 - V_(t+1) - V_t = change in reserve (positive = cost, negative = release)
 
 ### 3.8 Discounted Profit and PVFP
